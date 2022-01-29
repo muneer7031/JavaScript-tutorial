@@ -45,9 +45,17 @@
             Rahul: 52,
             Anurag:99.999
         }
+
     // 5. Undefined
         var und1= undefined;
         console.log(undefined, und1);
         var und2; //also undefined
+
     // 6. Null
         var n=null;
+
+    // 7. Array
+        var arr1=[12,20,30,40];
+        var arr2=["this","is","string","array"];
+        var arr3=[12,20,"kunja",40]; //hybrid array
+        console.log(arr1);
