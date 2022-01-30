@@ -108,3 +108,11 @@
         // Logical NOT
         // console.log(!false);
         // console.log(!true);
+
+// 6. Functions in JavaScript
+    function avg(a,b){
+        return (a+b)/2;
+    }
+    var c= avg(5,10);
+    d=avg(5,5);
+    console.log(d);
