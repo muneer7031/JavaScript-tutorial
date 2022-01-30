@@ -26,40 +26,85 @@
 */
 
     // 1. Number
-        var num1=745;
-        var num2=56.998;
+        // var num1=745;
+        // var num2=56.998;
     
     // 2. String
-        var str1="Hello there this is a string using double quotes.";
-        var str1='Hello there this is also a string using single quotes.';
-        console.log(str1);
+        // var str1="Hello there this is a string using double quotes.";
+        // var str1='Hello there this is also a string using single quotes.';
+        // console.log(str1);
     
 
     // 3. Boolean
-        var isTrue =true;
-        var isFalse =false;
-        console.log(isTrue);
+        // var isTrue =true;
+        // var isFalse =false;
+        // console.log(isTrue);
 
     // 4. Objects
-        var obj1={
-            Muneer: 98,
-            Kiran: 99,
-            Rahul: 52,
-            Anurag:99.999
-        }
-        console.log(obj1);
+        // var obj1={
+            // Muneer: 98,
+            // Kiran: 99,
+            // Rahul: 52,
+            // Anurag:99.999
+        // }
+        // console.log(obj1);
 
     // 5. Undefined
-        var und1= undefined;
-        console.log(undefined, und1);
-        var und2; //also undefined
-        console.log(und2);
+        // var und1= undefined;
+        // console.log(undefined, und1);
+        // var und2; //also undefined
+        // console.log(und2);
 
     // 6. Null
-        var n=null;
+        // var n=null;
 
     // 7. Array
-        var arr1=[12,20,30,40];
-        var arr2=["this","is","string","array"];
-        var arr3=[12,20,"kunja",40]; //hybrid array
-        console.log(arr1);
+        // var arr1=[12,20,30,40];
+        // var arr2=["this","is","string","array"];
+        // var arr3=[12,20,"bablo",40]; //hybrid array
+        // console.log(arr2);
+
+// 5. Operators in JavaScript
+
+    // 1.Arithmetic Operators
+        // var a=100;
+        // var b=10;
+        // console.log("The value of a+b :",a+b);
+        // console.log("The value of a-b :",a-b);
+        // console.log("The value of a*b :",a*b);
+        // console.log("The value of a/b :",a/b);
+        // console.log("The value of a%b :",a%b);
+
+    // 2. Assignment operators
+        // var c=b;
+        // c+=2;   //c=c+2
+        // c-=5;
+        // c*=4;
+        // c/=3;
+        // console.log(c);
+    
+    // 3. Comparison operators
+        // var x =10;
+        // var y=20;
+        // console.log(x >= y);
+        // console.log(x <= y);
+        // console.log(x > y);
+        // console.log(x < y); 
+
+    // 4.Logical operators
+        
+        // Logical AND
+        // console.log(true && true);
+        // console.log(true && false);
+        // console.log(false && true);
+        // console.log(false && false);
+
+        // Logical OR
+        // console.log(true || true);
+        // console.log(true || false);
+        // console.log(false || true);
+        // console.log(false || false);
+
+        // Logical NOT
+        // console.log(!false);
+        // console.log(!true);
