@@ -32,11 +32,13 @@
     // 2. String
         var str1="Hello there this is a string using double quotes.";
         var str1='Hello there this is also a string using single quotes.';
+        console.log(str1);
     
 
     // 3. Boolean
         var isTrue =true;
         var isFalse =false;
+        console.log(isTrue);
 
     // 4. Objects
         var obj1={
@@ -45,11 +47,13 @@
             Rahul: 52,
             Anurag:99.999
         }
+        console.log(obj1);
 
     // 5. Undefined
         var und1= undefined;
         console.log(undefined, und1);
         var und2; //also undefined
+        console.log(und2);
 
     // 6. Null
         var n=null;
