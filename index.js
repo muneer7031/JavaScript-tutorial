@@ -110,42 +110,79 @@
         // console.log(!true);
 
 // 6. Functions in JavaScript
-    function avg(a,b){
-        return (a+b)/2;
-    }
-    var c= avg(5,10);
-    d=avg(5,5);
-    console.log(d);
+    // function avg(a,b){
+    //     return (a+b)/2;
+    // }
+    // var c= avg(5,10);
+    // d=avg(5,5);
+    // console.log(d);
 
 // 7. Conditional statements
-    age=22;
-    // if statement
-    if(age>21){
-        console.log("You can consume alcohol");
-    }
+    // age=22;
+    // // if statement
+    // if(age>21){
+    //     console.log("You can consume alcohol");
+    // }
 
-    // if - else statement
-    if(age>18){
-        console.log("you can vote");
-    }
-    else{
-        console.log("you cannot vote");
-    }
+    // // if - else statement
+    // if(age>18){
+    //     console.log("you can vote");
+    // }
+    // else{
+    //     console.log("you cannot vote");
+    // }
 
-    // if else ladder
-    if(age<18){
-        console.log("you are a kid");
-    }
-    else if(age>50){
-        console.log("you are a senior citizen");
-    }
-    else if(age>30){
-        console.log("you are a responsible adult");
-    }
-    else if(age>18){
-        console.log("you are an adult");
-    }
-    else{
-        console.log("what are you?");
-    }
+    // // if else ladder
+    // if(age<18){
+    //     console.log("you are a kid");
+    // }
+    // else if(age>50){
+    //     console.log("you are a senior citizen");
+    // }
+    // else if(age>30){
+    //     console.log("you are a responsible adult");
+    // }
+    // else if(age>18){
+    //     console.log("you are an adult");
+    // }
+    // else{
+    //     console.log("what are you?");
+    // }
 
+// 8. Loops in JavaScript
+    // arr=[1,2,3,4,5,6,7,8,9];
+
+    // for loop
+
+    // for(i=0;i<arr.length;++i){
+    //     console.log(arr[i]);
+    // }
+
+    // for-each loop
+
+    // arr.forEach(element => {
+    //     console.log(element);
+    // });
+
+    // while loop
+
+    // j=0;
+    // while (j<arr.length) {
+    //     console.log(arr[j]);
+    //     ++j;
+    // }
+
+    // do-while loop
+    // do {
+    //     console.log(arr[j]);
+    //     j++;
+    // } while (j<arr.length);
+
+// 9. break and continue
+    //  for(i=0;i<arr.length;++i){
+    //      if (i==5) {
+    //         //  break;
+    //          continue;
+    //      }
+    //     console.log(arr[i]);
+    // }
