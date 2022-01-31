@@ -188,11 +188,19 @@
     // }
 
 // 10. Array methods
-    let myArray=[1,'hi',5,7,9,10];
-    console.log(myArray.pop());
-    let newArray=myArray.push('Muneer');
-    console.log(newArray);
-    console.log(myArray);
-    console.log(myArray.indexOf(5));
-    console.log(myArray.shift());
-    console.log(myArray.unshift('start'));
+    // let myArray=[1,'hi',5,7,9,10];
+    // console.log(myArray.pop());
+    // let newArray=myArray.push('Muneer');
+    // console.log(newArray);
+    // console.log(myArray);
+    // console.log(myArray.indexOf(5));
+    // console.log(myArray.shift());
+    // console.log(myArray.unshift('start'));
+
+// 11.String Methods
+    let myString="Hello there, im learning JavaScript and its interesting";
+    console.log(myString.length);
+    console.log(myString.indexOf("JavaScript"));
+    console.log(myString.split("learning"));
+    console.log(myString.toUpperCase());
+    
