@@ -12,8 +12,8 @@
 
 
 // 3. variables in JavaScript - containers that store some data values
-    // var number1 = 2107;
-    // var number2 = 3110;
+    var number1 = 2107;
+    var number2 = 3110;
     // console.log(number1+number2);
 
 
@@ -26,49 +26,49 @@
 */
 
     // 1. Number
-        // var num1=745;
-        // var num2=56.998;
+        var num1=745;
+        var num2=56.998;
     
     // 2. String
-        // var str1="Hello there this is a string using double quotes.";
-        // var str1='Hello there this is also a string using single quotes.';
+        var str1="Hello there this is a string using double quotes.";
+        var str1='Hello there this is also a string using single quotes.';
         // console.log(str1);
     
 
     // 3. Boolean
-        // var isTrue =true;
-        // var isFalse =false;
+        var isTrue =true;
+        var isFalse =false;
         // console.log(isTrue);
 
     // 4. Objects
-        // var obj1={
-            // Muneer: 98,
-            // Kiran: 99,
-            // Rahul: 52,
-            // Anurag:99.999
-        // }
+        var obj1={
+            Muneer: 98,
+            Kiran: 99,
+            Rahul: 52,
+            Anurag:99.999
+        }
         // console.log(obj1);
 
     // 5. Undefined
-        // var und1= undefined;
+        var und1= undefined;
         // console.log(undefined, und1);
-        // var und2; //also undefined
+        var und2; //also undefined
         // console.log(und2);
 
     // 6. Null
-        // var n=null;
+        var n=null;
 
     // 7. Array
-        // var arr1=[12,20,30,40];
-        // var arr2=["this","is","string","array"];
-        // var arr3=[12,20,"bablo",40]; //hybrid array
+        var arr1=[12,20,30,40];
+        var arr2=["this","is","string","array"];
+        var arr3=[12,20,"bablo",40]; //hybrid array
         // console.log(arr2);
 
 // 5. Operators in JavaScript
 
     // 1.Arithmetic Operators
-        // var a=100;
-        // var b=10;
+        var a=100;
+        var b=10;
         // console.log("The value of a+b :",a+b);
         // console.log("The value of a-b :",a-b);
         // console.log("The value of a*b :",a*b);
@@ -84,8 +84,8 @@
         // console.log(c);
     
     // 3. Comparison operators
-        // var x =10;
-        // var y=20;
+        var x =10;
+        var y=20;
         // console.log(x >= y);
         // console.log(x <= y);
         // console.log(x > y);
@@ -118,7 +118,7 @@
     // console.log(d);
 
 // 7. Conditional statements
-    // age=22;
+    age=22;
     // // if statement
     // if(age>21){
     //     console.log("You can consume alcohol");
@@ -150,7 +150,7 @@
     // }
 
 // 8. Loops in JavaScript
-    // arr=[1,2,3,4,5,6,7,8,9];
+    arr=[1,2,3,4,5,6,7,8,9];
 
     // for loop
 
@@ -186,3 +186,31 @@
     //      }
     //     console.log(arr[i]);
     // }
+
+// 10. Array methods
+    let myArray=[1,'hi',5,7,9,10];
+    // console.log(myArray.pop());
+    // let newArray=myArray.push('Muneer');
+    // console.log(newArray);
+    // console.log(myArray);
+    // console.log(myArray.indexOf(5));
+    // console.log(myArray.shift());
+    // console.log(myArray.unshift('start'));
+
+// 11.String Methods
+    let myString="Hello there, im learning JavaScript and its interesting";
+    // console.log(myString.length);
+    // console.log(myString.indexOf("JavaScript"));
+    // console.log(myString.split("learning"));
+    // console.log(myString.toUpperCase());
+    // myNewString=myString.replace("JavaScript","JS");
+    // console.log(myNewString);
+    
+// 12. Date in JavaScript
+    let myDate = new Date();
+    console.log(myDate.getDate());
+    console.log(myDate.getDay()); //index nos
+    console.log(myDate.getTime());
+    console.log(myDate.getFullYear());
+    console.log(myDate.getMonth()); //index nos
+    console.log(myDate.getHours());
