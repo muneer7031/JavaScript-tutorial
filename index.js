@@ -186,3 +186,13 @@
     //      }
     //     console.log(arr[i]);
     // }
+
+// 10. Array methods
+    let myArray=[1,'hi',5,7,9,10];
+    console.log(myArray.pop());
+    let newArray=myArray.push('Muneer');
+    console.log(newArray);
+    console.log(myArray);
+    console.log(myArray.indexOf(5));
+    console.log(myArray.shift());
+    console.log(myArray.unshift('start'));
