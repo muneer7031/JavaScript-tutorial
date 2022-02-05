@@ -208,9 +208,37 @@
     
 // 12. Date in JavaScript
     let myDate = new Date();
-    console.log(myDate.getDate());
-    console.log(myDate.getDay()); //index nos
-    console.log(myDate.getTime());
-    console.log(myDate.getFullYear());
-    console.log(myDate.getMonth()); //index nos
-    console.log(myDate.getHours());
+    // console.log(myDate.getDate());
+    // console.log(myDate.getDay()); //index nos
+    // console.log(myDate.getTime());
+    // console.log(myDate.getFullYear());
+    // console.log(myDate.getMonth()); //index nos
+    // console.log(myDate.getHours());
+
+// 13. Spread in JavaScript
+         arr =[1,2,3,4,5];
+        function avg(a,b,c){
+            return (a+b+c)/3;
+        }
+    //  console.log(avg(...arr));
+    let array2=[...arr,6,7,8,9];
+    // console.log(array2);
+     array3=[10,20,30,40,50];
+     array3=[...arr,...array3];
+    //  console.log(array3);
+
+     let ob1={
+         name1:"muneer",
+         age:20,
+         favLang:"JavaScript"
+
+     }
+
+     let ob2={
+         ...ob1,favLang:"nodeJS"
+     }
+    //  console.log(ob2);
+
+// 14. Destructuring in JS
+     var {name1,age,favLang}=ob1;
+     console.log(name1,age,favLang);
