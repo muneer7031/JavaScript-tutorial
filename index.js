@@ -238,3 +238,7 @@
          ...ob1,favLang:"nodeJS"
      }
     //  console.log(ob2);
+
+// 14. Destructuring in JS
+     var {name1,age,favLang}=ob1;
+     console.log(name1,age,favLang);
